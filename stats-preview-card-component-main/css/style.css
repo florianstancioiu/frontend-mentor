@@ -1,0 +1,123 @@
+body {
+    padding: 88px 24px;
+    background-color: #0a0c1b;
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #1c1938;
+}
+
+.card-text-inner {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card h1 {
+    font-family: Lexend Deca;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.card h1 span {
+    color: #a663d7;
+}
+
+.card .main-image {
+    min-height: 240px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px 4px 0 0;
+    mix-blend-mode: soft-light;
+}
+
+.card .description {
+    margin-bottom: 50px;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card .stats-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .stats {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.card .stats .stats-title {
+    font-family: Lexend Deca;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.card .stats .stats-subtitle {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        padding: 175px 160px;
+    }
+
+    .card {
+        flex-direction: row-reverse;
+        max-width: 1110px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .card-text,
+    .card .main-image {
+        width: 50%;
+    }
+
+    .card-text-inner {
+        /*
+        padding-left: 70px;
+        padding-right: 120px;
+        */
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .card-title {
+        margin-top: 75px;
+    }
+
+    .card .main-image img {
+        max-height: 100%;
+        border-radius: 0 4px 4px 0;
+    }
+
+    .card .stats-wrapper {
+        flex-direction: row;
+    }
+
+    .card .stats-wrapper .stats {
+        width: 33.33%;
+        margin-bottom: 60px;
+    }
+
+    .card h1 {
+        text-align: left;
+    }
+
+    .card .description,
+    .card .stats .stats-subtitle {
+        text-align: left;
+    }
+}
