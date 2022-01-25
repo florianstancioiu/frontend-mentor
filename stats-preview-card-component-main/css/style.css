@@ -32,6 +32,7 @@ body {
 }
 
 .card .main-image {
+    background-image: url("../images/image-header-mobile.jpg");
     min-height: 240px;
     width: 100%;
     background-size: cover;
@@ -83,6 +84,10 @@ body {
     .card-text,
     .card .main-image {
         width: 50%;
+    }
+
+    .card .main-image {
+        background-image: url("../images/image-header-desktop.jpg");
     }
 
     .card-text-inner {
