@@ -1,0 +1,130 @@
+body {
+    font-size: 15px;
+    font-family: "Outfit";
+    background-color: hsl(217, 54%, 11%);
+    padding: 60px 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.nft {
+    background-color: hsl(216, 50%, 16%);
+    padding: 22px;
+    border-radius: 15px;
+    width: calc(100% - 48px);
+}
+
+.nft-image {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.nft-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.nft-heading:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.nft-description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.nft-info {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 15px;
+}
+
+.nft-eth,
+.nft-days {
+    width: 50%;
+}
+
+.nft-eth span {
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    top: -3px;
+    position: relative;
+}
+
+.nft-days {
+    text-align: right;
+}
+
+.nft-days span {
+    color: hsl(215, 51%, 70%);
+    top: -3px;
+    position: relative;
+}
+
+.nft-creation img {
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nft-creation p {
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -13px;
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-creation p span {
+    color: white;
+}
+
+.nft-creation p span:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.nft-image-wrapper {
+    position: relative;
+}
+
+.nft-image-wrapper:hover .nft-image-overlay {
+    display: block;
+}
+
+.nft-image-overlay {
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.6);
+    cursor: pointer;
+    display: none;
+}
+
+.nft-image-overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 376px) {
+    .nft {
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nft-description {
+        font-size: 18px;
+    }
+}
