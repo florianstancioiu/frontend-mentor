@@ -70,7 +70,7 @@ body {
 
 .annual-plan {
     color: #0f1932;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 13px;
@@ -94,13 +94,14 @@ body {
     width: 100%;
     text-align: center;
     color: white;
-    font-weight: 700;
+    font-weight: 900;
     background-color: #382ae1;
     border: 0;
     padding-top: 18px;
     padding-bottom: 18px;
     border-radius: 10px;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .btn-cancel {
@@ -108,6 +109,28 @@ body {
     text-decoration: none;
     text-align: center;
     color: #717a97;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 35px;
+}
+
+@media screen and (min-width: 401px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .order {
+        width: 400px;
+    }
+
+    .order-change {
+        margin-left: 120px;
+    }
+
+    .order-description {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
