@@ -7,7 +7,7 @@ body {
 
 .order {
     width: calc(100% - 48px);
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: white;
     margin: 0 auto;
 }
@@ -16,11 +16,13 @@ body {
     max-width: 100%;
     display: block;
     margin: 0 auto;
-    border-radius: 20px 20px 0 0;
+    border-radius: 25px 25px 0 0;
 }
 
 .order-inner {
     padding: 0 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .order-text {
@@ -48,7 +50,8 @@ body {
 .order-plan {
     padding: 16px;
     background-color: #f6fafd;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 .order-music-wrapper,
@@ -59,4 +62,52 @@ body {
 
 .order-music-wrapper {
     margin-right: 16px;
+}
+
+.order-change {
+    margin-left: 40px;
+}
+
+.annual-plan {
+    color: #0f1932;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.yearly-pricing {
+    color: #7d8296;
+    margin: 0;
+    font-size: 13px;
+}
+
+.order-change a {
+    font-size: 14px;
+    color: #40359d;
+    position: relative;
+    top: -15px;
+}
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    background-color: #382ae1;
+    border: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.btn-cancel {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #717a97;
+    font-weight: 700;
+    margin-bottom: 35px;
 }
