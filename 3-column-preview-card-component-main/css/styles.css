@@ -1,0 +1,66 @@
+body {
+    font-size: 15px;
+    font-family: "Lexend Deca";
+    background-color: hsl(0, 0%, 95%);
+}
+
+.card p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.card h1 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 44px);
+}
+
+.card {
+    padding: 47px;
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.card-sedans a {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-suvs a {
+    color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+.card-luxury a {
+    color: hsl(179, 100%, 13%);
+}
